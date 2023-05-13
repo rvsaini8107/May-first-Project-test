@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    margin: 2% 5%;
+}
+.button {
+    padding: 14px 49px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid #931E91;
+    border-radius: 0 15px;
+  }
+#table-posts{
+    display: none;
+}
+#table-projects{
+    display: none;
+}
+#table-todos{
+    display: none;
+}
+
+  
+.button:hover {
+    background-color: #931E91; /* Green */
+  color: white;
+}
+table{
+    margin-top: 5%;
+}
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+
+
+.tags{
+
+}
